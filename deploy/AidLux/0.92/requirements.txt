@@ -28,3 +28,4 @@ uiautomator2cache==0.3.0.1
 uvicorn[standard]==0.17.6
 wrapt==1.13.1
 zerorpc==0.6.3
+gevent>=23.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
