@@ -10,11 +10,11 @@ lz4==4.3.2
 mxnet==1.6.0
 numpy==1.17.4
 onepush==1.2.0
-opencv-python-headless==4.7.0.72
+opencv-python-headless==4.8.1.78.72
 pillow==9.5.0
 prettytable==2.2.1
 psutil==5.9.3
-pydantic==1.10.9
+pydantic==1.10.13
 pypresence==4.2.1
 pywebio==1.6.2
 pyyaml==6.0
