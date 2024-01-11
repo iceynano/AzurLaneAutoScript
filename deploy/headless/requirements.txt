@@ -29,3 +29,5 @@ uiautomator2cache==0.3.0.1
 uvicorn[standard]==0.17.6
 wrapt==1.15.0
 zerorpc==0.6.3
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
