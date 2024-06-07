@@ -41,3 +41,4 @@ starlette==0.14.2
 uvicorn[standard]==0.17.6
 zerorpc==0.6.3
 pyzmq==22.3.0
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
