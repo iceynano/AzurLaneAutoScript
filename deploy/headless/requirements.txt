@@ -1,8 +1,8 @@
 # Image processing
-numpy==1.17.4
-scipy==1.4.1
-pillow==9.5.0
-opencv-python-headless==4.7.0.72
+numpy==1.22.2
+scipy==1.10.0rc1
+pillow==10.3.0
+opencv-python-headless==4.8.1.78
 imageio==2.27.0
 
 # Device connection
@@ -17,27 +17,31 @@ psutil==5.9.3
 
 # Utils
 rich==11.2.0
-tqdm==4.65.0
+tqdm==4.66.3
 jellyfish==0.11.2
 pyyaml==6.0
 inflection==0.5.1
-pydantic==1.10.9
+pydantic==1.10.13
 aiofiles==23.1.0
 prettytable==2.2.1
 anyio==1.3.1
 
 # Pushing
 onepush==1.3.0
-pycryptodome==3.9.9
+pycryptodome==3.19.1
 pypresence==4.2.1
 
 # Ocr
 cnocr==1.2.2
-mxnet==1.6.0
+mxnet==1.9.1
 
 # Webui
 pywebio==1.6.2
-starlette==0.14.2
+starlette==0.27.0
 uvicorn[standard]==0.17.6
 zerorpc==0.6.3
 pyzmq==22.3.0
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
