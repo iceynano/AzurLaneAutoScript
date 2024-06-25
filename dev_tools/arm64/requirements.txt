@@ -13,7 +13,7 @@ pyyaml
 inflection
 pywebio==1.6.2
 starlette==0.14.2
-anyio==1.3.1
+anyio==4.4.0
 uvicorn[standard]==0.17.6
 aiofiles
 wrapt==1.13.1
