@@ -24,3 +24,6 @@ rich==11.2.0
 zerorpc==0.6.3
 pyzmq==22.3.0
 onepush
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
